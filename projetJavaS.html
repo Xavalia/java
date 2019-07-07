@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div id="calculatrice">
+	<table>
+		<tr>
+
+			<td class="info"><label for="Nombre1">Nombre 1 : </label></td>
+		   <td><input type="number" id="nombre1" name="nombre1" placeholder="Premier nombre"> </td>
+        </tr>
+        <tr>
+			<td class="info"><label for="Nombre2">Nombre 2 : </label></td>
+		   <td><input type="number" id="nombre2" name="nombre2" placeholder="Deuxième nombre"> </td>
+        </tr>
+        
+        <tr>
+        	<td>
+                 <select>    
+        	          <option id="add"> Addition </option>
+                      <option id="sous"> Soustraction </option>
+                      <option id="mult"> Multiplication </option>
+                      <option id="divi"> Division </option>
+                 </select>
+            </td>
+
+            <td><input type="button" id="btn" value="calculer"/> </td>
+           
+            <td><input id="result"><label for="result"> Résultats : </label> </td>
+
+       </tr>
+    </table>
+  </div>
+
+</body>
+</html>
